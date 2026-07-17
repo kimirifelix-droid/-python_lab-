@@ -1,3 +1,5 @@
+<img width="771" height="509" alt="Python Commit History" src="https://github.com/user-attachments/assets/e3883862-aada-4c16-8210-531af8e7f9ab" />
+
 Python Lab Assignment Worksheet
 
 Part A - Project Setup Using the CLI

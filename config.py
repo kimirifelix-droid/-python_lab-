@@ -1,54 +1,62 @@
 """
 config.py
+----------------------------------------
+Stores application configuration settings
+for the Python Lab Assignment.
 
-Configuration settings for the Python Lab Assignment.
-This file stores constants used throughout the application.
+Author: ______________________
+Admission Number: ______________________
 """
 
-# ==========================================
+# ======================================
 # Application Information
-# ==========================================
+# ======================================
 
 APP_NAME = "Python Utility Calculator"
-APP_VERSION = "1.0"
-AUTHOR = "Your Name"
+APP_VERSION = "1.0.0"
+AUTHOR = "______________________"
 
-# ==========================================
-# Default Settings
-# ==========================================
+# ======================================
+# Greeting Settings
+# ======================================
 
 DEFAULT_USER = "Student"
+WELCOME_MESSAGE = "Welcome to the Python Utility Calculator!"
 
-# ==========================================
-# Number Limits
-# ==========================================
-
-MIN_NUMBER = -100000
-MAX_NUMBER = 100000
-
-# ==========================================
+# ======================================
 # Temperature Conversion
-# ==========================================
+# ======================================
 
 CELSIUS_UNIT = "°C"
 FAHRENHEIT_UNIT = "°F"
 
-# ==========================================
+# ======================================
+# Input Validation
+# ======================================
+
+MIN_NUMBER = -100000
+MAX_NUMBER = 100000
+
+# ======================================
 # Output Labels
-# ==========================================
+# ======================================
 
 SQUARE_LABEL = "Square"
-EVEN_LABEL = "Even"
-FAHRENHEIT_LABEL = "Temperature (°F)"
+EVEN_LABEL = "Even Number"
+TEMP_LABEL = "Temperature in Fahrenheit"
 
-# ==========================================
-# Messages
-# ==========================================
+# ======================================
+# Error Messages
+# ======================================
 
-WELCOME_MESSAGE = "Welcome to the Python Utility Calculator!"
-GOODBYE_MESSAGE = "Thank you for using the program."
-
-INVALID_INPUT = "Invalid input. Please enter a valid number."
+INVALID_INPUT = "Error: Please enter a valid numeric value."
 OUT_OF_RANGE = (
-    f"Number must be between {MIN_NUMBER} and {MAX_NUMBER}."
+    f"Error: Number must be between {MIN_NUMBER} and {MAX_NUMBER}."
 )
+
+# ======================================
+# Git Assignment Information
+# ======================================
+
+PROJECT_NAME = "Python Lab Assignment"
+PROJECT_STRUCTURE = ["src", "tests", "docs"]
